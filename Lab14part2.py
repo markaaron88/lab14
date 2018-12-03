@@ -33,8 +33,9 @@ def foothill():
     headlines.append(fileText[index:midIndex+1])
     start = midIndex
     
+  print "*** Foothill Breaking News! ****"    
   for i in headlines:
-    print(i)  
+     print i
   
   
 
